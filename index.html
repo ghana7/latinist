@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="interface.css" />
+		<title>Latinist</title>
+	</head>
+	<body>
+		<h1>Latinist</h1>
+		<div id="latinText">
+			<p>
+			<span class="a noun">Arma</span>
+			<span class="b noun">virum</span><span class="c conj">que</span>
+			<span class="d verb">cano,</span>
+			<span class="e noun">Troiae</span>
+			<span class="f pron">qui</span>
+			<span class="g adj">primus</span>
+			<span class="h prep">ab</span>
+			<span class="i noun">oris</span>
+			</p>
+			<p>
+			<span class="j noun">Italiam,</span>
+			<span class="k noun">fato</span>
+			<span class="l adj">profugus,</span>
+			<span class="m adj">Lavinia</span><span class="n conj">que</span>
+			<span class="o verb">venit</span>
+			</p>
+			<p>
+			<span class="p noun">litora,</span>
+			<span class="q adj">multum</span>
+			<span class="r pron">ille</span>
+			<span class="s conj">et</span>
+			<span class="t noun">terris</span>
+			<span class="u adj">iactatus</span>
+			<span class="v conj">et</span>
+			<span class="w adj">alto</span>
+			</p>
+			<p>
+			<span class="x noun">vi</span>
+			<span class="y noun">superum</span>
+			<span class="z adj">saevae</span>
+			<span class="aa noun">memorem</span>
+			<span class="ab noun">Iunonis</span>
+			<span class="ac prep">ob</span>
+			<span class="ad noun">iram;</span>
+			</p>
+		</div>
+		<div id="englishText">
+		
+			<p>
+			<span class="d">I sing [of]</span>
+			<span class="a">arms</span>
+			<span class="c">and</span>
+			<span class="b">the man,</span>
+			<span class="f">who</span>
+			<span class="g">first</span>
+			</p>
+			<p>
+			<span class="l">exiled</span>
+			<span class="k">by fate,</span>
+			<span class="o">came</span>
+			<span class="j">to Italy</span>
+			<span class="n">and</span>
+			<span class="p">to the</span>
+			<span class="m">Lavinian</span>
+			<span class="p">shores</span>
+			<span class="h">from</span>
+			<span class="i">the shores</span>
+			<span class="e">of Troy,</span>
+			</p>
+			<p>
+			<span class="u">thrown</span>
+			<span class="q">much</span>
+			<span class="t">on</span>
+			<span class="s">both</span>
+			<span class="t">land</span>
+			<span class="v">and</span>
+			<span class="w">sea</span>
+			<span class="x">by the force</span>
+			<span class="y">of the gods</span>
+			</p>
+			<p>
+			<span class="ac">on account of</span>
+			<span class="ad">the</span>
+			<span class="aa">mindful</span>
+			<span class="ad">anger</span>
+			<span class="ab">of</span>
+			<span class="z">cruel</span>
+			<span class="ab">Juno.</span>
+			</p>
+		</div>
+		<div id="bottom">
+			<div class="button" onclick="highlightPOS('noun','#AAAAFF')"><div class="buttontxt">Highlight nouns</div></div>
+			<div class="button" onclick="highlightPOS('adj','#AAFFAA')"><div class="buttontxt">Highlight adjectives</div></div>
+			<div class="button" onclick="highlightPOS('verb','#FFAAAA')"><div class="buttontxt">Highlight verbs</div></div>
+			<div class="button" onclick="highlightPOS('prep','#FFFFAA')"><div class="buttontxt">Highlight prepositions</div></div>
+			<div class="button" onclick="highlightPOS('pron','#AAFFFF')"><div class="buttontxt">Highlight pronouns</div></div>
+			<div class="button" onclick="highlightPOS('conj','#FFAAFF')"><div class="buttontxt">Highlight conjunctions</div></div>
+			<div class="button" onclick="clearColor()"><div class="buttontxt">Clear Highlighting</div></div>
+		</div>
+		<script type="text/javascript" src="main.js"></script>
+	</body>
+</html>

@@ -1,0 +1,52 @@
+#latinText {
+	display:inline-block;
+	background-color:#DDDDDD;
+	padding:1%;
+	margin:0.5%;
+	border-radius:5px;
+	float:left;
+	width:47%;
+	font-size:1.25em;
+}
+#englishText {
+	display:inline-block;
+	background-color:#DDDDDD;
+	padding:1%;
+	margin:0.5%;
+	border-radius:5px;
+	float:right;
+	width:47%;
+	font-size:1.25em;
+}
+
+#bottom {
+	display:inline-block;
+	margin:10px;
+	width:100%;
+}
+
+#latinText span {
+}
+#englishText span {
+}
+
+.button {
+	background-color:#DDDDDD;
+	text-align:center;
+	cursor:pointer;
+	width:auto;
+	display:inline-block;
+	border-radius:5px;
+	
+	user-select: none; /*makes it so nobody can select the text*/
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+.button:hover {
+	background-color:#BBBBBB;
+}
+.buttontxt {
+	padding:5px;
+}
